@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body{
+    background-color: #F2eee3;
+    height: 1100px;
+}
+
+div.agreement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  padding: 30px;
+  width: 60%;
+  height: auto;
+  /* margin: auto; */
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+div.agreement h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+div.agreement h5 {
+  text-align: center;
+  padding-bottom: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+p {
+  font-size: medium;
+  text-align: justify;
+}
+
+ul {
+  font-size: medium;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+label {
+  font-size: medium;
+}
+p.msg {
+  font-size: small;
+  color: red;
+}
+
+span.user_name {
+  font-weight: bold;
+}
+
+button {
+  border: 0;
+  font-size: medium;
+  color: white;
+  background-color: #e7d4c5;
+  height: 30px;
+  width: 100px;
+  border-radius: 16px;
+  float: right;
+}
+
+button:hover {
+  background-color: #8ee19a;
+  transition: 0.2s ease-out;
+}
